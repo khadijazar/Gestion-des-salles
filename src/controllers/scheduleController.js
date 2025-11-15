@@ -5,7 +5,7 @@ export const createSchedule = async (req, res) => {
   try {
     const { roomId, profId, startTime, endTime, subject, dayOfWeek } = req.body;
 
-    if (!roomId || !profId || !startTime || !endTime || !subject || dayOfWeek === undefined) {
+    if (!roomId || !profId || !startTime || !endTime || !subject || dayOfWeek  === undefined) {
       return res.status(400).json({ message: "Tous les champs sont requis" });
     }
 
@@ -17,6 +17,11 @@ export const createSchedule = async (req, res) => {
       subject,
       dayOfWeek: Number(dayOfWeek),
     });
+    // scheduleController.js
+
+
+
+
 
     const savedSchedule = await newSchedule.save();
     res.status(201).json(savedSchedule);
@@ -26,15 +31,15 @@ export const createSchedule = async (req, res) => {
   }
 };
 
+
 export const getSchedules = async (req, res) => {
   try {
     const schedules = await Schedule.find()
-      .populate("roomId", "name capacity location")
-      .populate("profId", "username name role");
+      .populate("profId", "name")  // populate professor name
+      .populate("roomId", "name"); // populate room name
     res.json(schedules);
-  } catch (error) {
-    console.error(error);
-    res.status(500).json({ message: error.message });
+  } catch (err) {
+    res.status(500).json({ message: err.message });
   }
 };
 
