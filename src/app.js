@@ -22,7 +22,7 @@ app.use(express.json());
 app.use("/api/users", userRoutes);
 app.use("/api/rooms", roomRoutes);
 app.use("/api/schedules", scheduleRoutes);
-app.use("/api/accesslogs", accessLogRoutes);
+app.use("/api/access-logs", accessLogRoutes);
 app.use("/api/auth", authRoutes);
 
 // Route test
