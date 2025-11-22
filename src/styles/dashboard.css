@@ -1,0 +1,52 @@
+.dashboard-container {
+  padding: 30px;
+  font-family: "Poppins", sans-serif;
+  color: #3a4a5c;
+  background: #e8ecf1;
+  min-height: 100vh;
+}
+
+.dashboard-title {
+  font-size: 26px;
+  font-weight: 600;
+  margin-bottom: 15px;
+  color: #4a7ba7;
+}
+
+/* TABLE */
+.schedule-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+}
+
+.schedule-table th {
+  background: #5a8fbf;
+  color: white;
+  padding: 12px;
+  text-align: center;
+}
+
+.schedule-table td {
+  border: 1px solid #c5d5e3;
+  height: 70px;
+  text-align: center;
+  cursor: pointer;
+}
+
+.occupied {
+  background: #d9a5a5;
+  font-weight: bold;
+}
+
+.free {
+  background: #c2e0c2;
+}
+
+/* PANNEAU DROIT */
+.right-panel {
+  margin-top: 25px;
+  padding: 20px;
+  background: #d9e8f5;
+  border-radius: 10px;
+}
