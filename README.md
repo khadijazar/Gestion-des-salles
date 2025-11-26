@@ -24,6 +24,5 @@ git clone https://github.com/khadijazar/Gestion-des-salles.git
 cd Gestion-des-salles
 git checkout backend   # se positionner sur la branche backend
 npm install            # installe les dépendances
-cp .env.example .env   # (si tu utilises un .env)  
-# puis configurer les variables d’environnement (URI MongoDB, port, etc.)
-npm start              # ou la commande que tu as pour démarrer le serveur
+# Configurer les variables d’environnement (URI MongoDB, port, etc.)
+npm start              #  la commande pour démarrer le serveur
