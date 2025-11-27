@@ -17,7 +17,7 @@
 
 ## Features ✨
 -  Add, modify, and delete rooms.
--  Manage users (students, teachers, staff).
+-  Manage users "teachers".
 -  Reserve rooms with availability control.
 -  Visualize schedules by room and by user.
 -  Simple notifications for reservation conflicts.
@@ -33,7 +33,7 @@ cd Gestion-des-salles
 ## How to Use 
 
 1.  **Admin Setup:** An administrator would configure the system, adding rooms and defining schedules.
-2.  **User Management:** Adding teachers, and staff with appropriate roles.
+2.  **User Management:** Adding teachers with appropriate roles.
 3.  **Reservations:** Users (likely teachers) would reserve rooms for specific time slots.
 4.  **Schedule Visualization:** Users can view schedules by room or by user to see availability.
 
