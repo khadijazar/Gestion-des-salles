@@ -1,4 +1,4 @@
-# Gestion des Salles 
+# Classroom Management System
 
 ## Description
 **Gestion des Salles** is a digital system designed to facilitate the organization and management of classroom availability and professor access in an institution like a university. It helps track room availability, manage reservations, users, and schedules, optimizing space utilization.
