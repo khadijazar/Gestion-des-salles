@@ -1,30 +1,30 @@
-# Gestion-des-Salles — Frontend
+# Room-Management — Frontend
 
-##  Description
-Le frontend de **Gestion-des-Salles** est une application web développée avec React.  
-Il permet aux utilisateurs de consulter et gérer les salles, les réservations et les disponibilités.  
-La partie frontend consomme l’API du backend afin d’afficher les données en temps réel.
+## Description
+The frontend of **Room-Management** is a web application developed with React.
+It allows users to view and manage rooms, reservations, and availabilities.
+The frontend consumes the backend API to display data in real-time.
 
 ---
 
-##  Technologies utilisées
+## Technologies Used
 - React.js (Create React App)
 - JavaScript
-- Axios (pour les requêtes HTTP)
-- CSS / Bootstrap 
-- API Backend (Express + MongoDB)
+- Axios (for HTTP requests)
+- CSS / Bootstrap
+- Backend API (Express + MongoDB)
 
 ---
 
-##  Installation et lancement
+## Installation and Launch
 
-### 1. Cloner le projet
+### 1. Clone the project
 ```bash
 git clone https://github.com/khadijazar/Gestion-des-salles.git
 cd Gestion-des-salles
 
-### 2.Installer les dépendances 
-npm install   
+### 2. Install dependencies
+npm install
 
-### 3. Lancer le serveur React
+### 3. Launch the React server
 npm start
